@@ -9,7 +9,7 @@ tags:
   - "Design"
   - "Typography"
   - "Web Development"
-description: "An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict between two worlds came to its term. The machines of the industrial world finally took over the handicrafts."
+description: ":)."
 ---
 
 ##Part 1 - Individual Accomplishments this Week
@@ -61,6 +61,8 @@ Pick one of your tickets and provide a detailed analysis of the work you did.  T
 One of the tickets I worked on was to work on the Project list and the Review List for the front end. I was going to start styling the page but I needed data to be displayed because each item was going to be a little box that was going to display a project and each one was gonna be able to be clicked on. I set up the reducers and actions to where it would be exactly the same if we were to have the endpoints ready. So then I made a dummy backend with some static data and some endpoints so I can display the projects onto the 2 components. I was now able to style the pages since I had static data being passed through I was able able to mimic actual endpoints being used.
 
 <img src="https://i.gyazo.com/c52baae25e9222d2097fba9d62c9c3bc.png">
+<img src="https://i.gyazo.com/69b82579958d1d7ffb2f36542c9181a1.png">
+<img src="https://i.gyazo.com/933b2e47d4848ea501f469a9d7b22924.png">
 
 
 ##Part 2 - Milestone Reflections
@@ -69,8 +71,16 @@ Put your response to the weekly question and a link to your team journal assignm
 
 #As a part of your journal entry, write ¼ to ½ a page reflecting on your experiences forming a team. What did you do to help the team solidify as a group? What did you do that you now realize caused friction in this process?
 
-As a group, provide links to evidence that:
+Well my experience on forming this team went pretty well, We were already on the same page since day 1. We all discussed the stack that we were going to use , we all agreed on that. We discussed how we are going to start the project and what steps were needed to take first. It was just slow in the beginning because we were trying to learn something new but it worked out in the end.
 
-Front end is deployed with a recognizable name. The site can be visited and will load a simple message
-Back end is deployed with a recognizable name. The address can be visited and will return data
-User accounts are created: Either through a tool, or the front end, a user account can be created and signed in.
+
+##As a group, provide links to evidence that:
+
+##Front end is deployed with a recognizable name. The site can be visited and will load a simple message
+https://5be4dbe61f12b738826944b3--ratemydiy.netlify.com/
+
+##Back end is deployed with a recognizable name. The address can be visited and will return data
+https://ratemydiy-backend.herokuapp.com/
+
+##User accounts are created: Either through a tool, or the front end, a user account can be created and signed in.
+https://i.gyazo.com/121acccf74cab098c281e34770097b64.png
