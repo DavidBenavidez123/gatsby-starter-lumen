@@ -3,7 +3,7 @@ title: Labs Sprint Challenge Week 1
 date: "November 9 2018"
 layout: post
 draft: false
-path: "/posts/humane-typography-in-the-digital-age/"
+path: "/posts/First-Week-Sprint-Challenge/"
 category: "Sprint Challenge"
 tags:
   - "Design"
