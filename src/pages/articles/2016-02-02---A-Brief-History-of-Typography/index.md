@@ -1,6 +1,6 @@
 ---
-title: "A Brief History of Typography"
-date: "2016-02-02T22:40:32.169Z"
+title: Labs Sprint Challenge Week 3
+date: "November 30 2018"
 layout: post
 draft: false
 path: "/posts/a-brief-history-of-typography/"
@@ -13,41 +13,91 @@ tags:
 description: "Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat."
 ---
 
-**Pellentesque habitant morbi tristique** senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. *Aenean ultricies mi vitae est.* Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. 
+##Part 1 - Individual Accomplishments this Week
 
-Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.  [Donec non enim](#) in turpis pulvinar facilisis.
+Paste a link to your whiteboard interview. You may keep this set to private and add your PM, but you are encouraged to set it to unlisted. (Weeks 2-4)
 
-![Nulla faucibus vestibulum eros in tempus. Vestibulum tempor imperdiet velit nec dapibus](./1.jpg)
+https://youtu.be/e9-8IZWjLMY
 
-## Header Level 2
 
-+ Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-+ Aliquam tincidunt mauris eu risus.
 
-Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. 
+Paste your team’s github contribution graph here and indicate your Github Handle:
+https://gyazo.com/e4b2a541813dd25e4a0dbf395260e443
 
-<figure>
-	<blockquote>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p>
-		<footer>
-			<cite>— Aliquam tincidunt mauris eu risus.</cite>
-		</footer>
-	</blockquote>
-</figure>
+Provide a paragraph (5-8 sentences) summarizing the work you did this week, the challenges you faced, the tools you used, and your accomplishments
 
-### Header Level 3
+I worked on letting the user being able to upload a picture through aws, having a search query letting users choose what catergories they want to load and currently still working on letting a user upload either 1 category or upload multiple categories. All of these things I have never worked on before so Learning how to do all of this was a struggle on it's own.
 
-+ Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-+ Aliquam tincidunt mauris eu risus.
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra.
 
-```css
-#header h1 a {
-  display: block;
-  width: 300px;
-  height: 80px;
-}
-```
+##Tasks Pulled
+List the tasks you pulled this week, and provide a link to the successfully merged PR completing that task and the trello card for that task.  You must have at least one front end and one back end. The expected total is 6 with a minimum of 4.
 
-Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
+##Front End
+Ticket 1
+Github https://github.com/Lambda-School-Labs/Labs8-RateMyDIY/pull/100
+Trello https://trello.com/c/eLi0Iz8k
+
+Ticket 2
+Github https://github.com/Lambda-School-Labs/Labs8-RateMyDIY/pull/89
+Trello https://trello.com/c/eLi0Iz8k
+
+Ticket 3
+Github https://github.com/Lambda-School-Labs/Labs8-RateMyDIY/pull/79 
+Trello 
+
+Ticket 4
+Github 
+Trello 
+
+##Back End
+
+
+
+Ticket 1
+Github https://github.com/Lambda-School-Labs/Labs8-RateMyDIY/pull/100
+Trello https://trello.com/c/eLi0Iz8k
+
+Ticket 2
+Github https://github.com/Lambda-School-Labs/Labs8-RateMyDIY/pull/89
+Trello https://trello.com/c/eLi0Iz8k
+
+Ticket 3
+Github https://github.com/Lambda-School-Labs/Labs8-RateMyDIY/pull/79
+Trello https://trello.com/c/FfebvLZp
+
+Ticket 4
+Github https://github.com/Lambda-School-Labs/Labs8-RateMyDIY/pull/75
+Trello https://trello.com/c/FfebvLZp
+
+
+
+##Detailed Analysis
+Pick one of your tickets and provide a detailed analysis of the work you did.  This should be approximately ¼ page of text, and at least three screenshots.
+
+One of thet tickets that I worked on was letting a user upload an image with using aws. The reason we used aws was because we needed a service to let us upload images and store it. It was difficult at first but I found a way to do it. First I needed to let the user to upload an image to aws. Then in the response, It returns a location of the image and with that, I was able to send the url to the backend and then the image would be displayed in the front end. 
+
+<img src="https://gyazo.com/1bd1455af86049abfba12c94f3117359">
+<img src="https://gyazo.com/11cdc47120903cbe7acad39306f2b94c">
+<img src="https://gyazo.com/11cdc47120903cbe7acad39306f2b94c">
+
+
+##Part 2 - Milestone Reflections
+Put your response to the weekly question and a link to your team journal assignment here.
+
+
+#As a part of your journal entry, write ¼ to ½ a page reflecting on your experiences working with a team to convert a disparate set of components into a single, cohesive, and complete product. Describe the challenges you faced and the steps you took to overcome them.
+
+We sort of have a complete projects but the problem with our feautures, we constantly need one feature to be done before we ever get to work on another. Our features are really dependent of eachother so that is something that we are trying to deal with. But currently we have most of our major features.
+
+
+##As a group, provide links to evidence that:
+
+##Front and back end servers are connected
+https://5be4dbe61f12b738826944b3--ratemydiy.netlify.com/
+
+##Users can create accounts and log in through the front end via OAuth
+https://ratemydiy-backend.herokuapp.com/
+
+##All APIs and services are connected and can be interacted with through the front end. A test message is acceptable to meet this requirement
+https://i.gyazo.com/121acccf74cab098c281e34770097b64.png
